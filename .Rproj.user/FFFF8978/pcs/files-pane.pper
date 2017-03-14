@@ -1,3 +1,9 @@
 {
-    "path" : "F:/StatsNZ_work/Acronyms"
+    "path" : "F:/StatsNZ_work/Acronyms",
+    "sortOrder" : [
+        {
+            "ascending" : true,
+            "columnIndex" : 2
+        }
+    ]
 }
