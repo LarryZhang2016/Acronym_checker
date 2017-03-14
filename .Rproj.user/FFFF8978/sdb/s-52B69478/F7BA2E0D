@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "## acronym-checker-app.R ##\nlibrary(stringr)\nlibrary(tidyr)\nlibrary(dplyr)\nlibrary(shiny)\n\nserver <- function(input, output) {\n  # You can access the value of the widget with input$text, e.g.\n   \n    output$value <- renderText(\n      {my_text <- toupper(input$text)\n\n       origin_df <- read.table(file=\"A_tidy_list.txt\",  row.names=NULL, sep=\"\\n\") \n      \n       n <- dim(origin_df)[1]\n       first_part <- rep(\"\", n)\n       second_part <- rep(\"\", n)\n      \n       for(i in 1:n)\n       {first_part[i] <- unlist(strsplit(as.character(origin_df[i,]), split = \":\"))[1]\n        second_part[i] <- unlist(strsplit(as.character(origin_df[i,]), split = \":\"))[2]\n       }\n      \n       new_df <- \n         data.frame(abb = str_trim(toupper(first_part), side = \"both\"), \n                    the_desc = str_trim(second_part, side = \"both\")) %>%\n         distinct()\n       \n       the_re <- ifelse(my_text %in% new_df$abb, \n                        as.character(new_df[which(new_df$abb==my_text), 2]),\n                        \"Not found\")\n       \n       return(the_re)\n      }\n      )\n  \n}\n\nui <- fluidPage(\n  # Copy the line below to make a text input box\n  textInput(\"text\", \n            label = h3(\"CD Team's acronym checker: Please enter an acronym (e.g. NPD) below\"), \n            value = \"\"),\n  #actionButton(inputId = \"go\", label = \"Check\"),\n  # hr(),\n  fluidRow(column(10, verbatimTextOutput(\"value\")))\n)\n\nshinyApp(ui = ui, server = server)\n\n\n",
+    "created" : 1489476359572.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3423221693",
+    "id" : "F7BA2E0D",
+    "lastKnownWriteTime" : 1489475208,
+    "last_content_update" : 1489475208,
+    "path" : "F:/StatsNZ_work/Acronyms/app.R",
+    "project_path" : "app.R",
+    "properties" : {
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

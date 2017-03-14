@@ -1,0 +1,84 @@
+KPI: Key Performance Indicator
+BP: Business Plan
+NRFU: Non Response Follow Up
+PSU: Primary Sampling Unit
+VMO: Volume Mail Out
+ICS: Internet Collection System
+TAG: Technical Advisor Group
+PES: Post-Enumeration Survey
+NPD: Non Private Dwelling
+CPT: Census Programme Team or Census Programme Team Meeting
+SLR: Statistical Location Register
+NPAD: (NZ) National Post Address Database
+MB: Meshblock
+PDF: Property Data Frame
+EPIC: Enterprise Processing Integrated Capability
+ECP: Enterprise Collection Platform
+CCS: Census Coverage Survey
+PD & I: Programme Design and Integration
+FI: Field Infrastructure
+FO: Field Operations
+PE: Processing and Evaluation
+C&CR: Content and Customer Relations
+P&S: Products and Service
+CCP: Census Coverage Project
+CT: Census Test 
+WCAT: Workload Creation & Allocation Tool
+CN&D: Customer Needs and Data
+CPSA: Customer Products, Services, & Access
+UAT: User Acceptance Test
+CURF: Confidentialised Unit Record Files 
+ARF: Address Reference File 
+CDF: Census Dwelling Frame
+AU: Area Unit
+BC: Building Consents
+BDS: Business Data Services or Business Development Services or Binary Data Set
+RI: Respondent Interaction (team)
+GMS: Geospatial Management System
+BF: Business Frame
+CDF: Census Dwelling Frame
+CG : Census Geography (team)
+CN&D : Customer Needs & Data (team)
+CPT : Census Programme Team
+CSPA : common Statistical Production Architecture
+DDOS : Determining Dwelling Occupancy Status
+DF : Dwelling Form
+DOV : Dwelling Occupancy Verification
+DR : Dress Rehearsal
+E2E : End-to-end testing
+ECP : Economics Collection Platform
+ED : Empty Dwelling
+EPIC : Enterprise Processing Integration & Capability
+FI : Field Infrastructure (team)
+Fops : Field Operations (team)
+IAC : Internet Access Code
+ICS : Internet Collection Service (back end of online census form webpage)
+IF : Individual Form
+IYA : In Your Absence card
+LINZ : Land Information NZ
+LL : List-Leave (field officers leave respondent materials at dwellings)
+MIS : Management Information System
+NOCCs : Number of occupants in the dwelling on test night (question on dwelling form)
+NPAD : National Postal Address Database
+NPD : Non-Private Dwelling
+NRFU : Non-Response Follow-Up
+P&E : Processing & Evaluation (team)
+PD : Private Dwelling
+PD&I : Programme Design & Integration
+PDF : Property Data Frame
+PES : Post-Enumeration Survey (either pronounced P-E-S (NZ) or “Pez” (UK))
+PMO : Project Management Office
+PSU : Primary Sampling Unit
+QMD : Questionnaire Methodology & Development
+QMS : Quality Management Strategy (or Quarterly Manufacturing Survey)
+QSAAP : Quick Stats About A Place (on SNZ website)
+QV : Quotable Value
+RA : Residents Away
+RI : Respondent Interaction (team)
+RTS : Return to sender
+SE : Special Enumeration (list-leave with contact)
+SLR : Statistical Location Register
+SMCD : Statistical Methods Census Development
+TA : Territorial Authority
+TLA : Three-Letter Acronym (or Territorial Local Authority)
+TRG : Target Response Groups
